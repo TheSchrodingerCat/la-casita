@@ -1,6 +1,8 @@
 
 body{
 	background: #ACEDFA;
+	padding: 0;
+	margin: 0;
 }
 
 .sol{
@@ -25,11 +27,33 @@ body{
 }
 
 .casita{
-	background: red;
-	width: 30%;
-	height: 70%;
+	width: 35%;
+	height: 80%;
 	position: absolute;
 	z-index: 1;
 	bottom: 10%;
 	right: 10%;
 }
+
+
+#techo{
+	border-bottom: 200px solid black;
+	border-left: 128px solid transparent;
+	border-right: 128px solid transparent;
+	height: 0;
+	width: 200px;
+	position: absolute;
+	top: 17px;
+}
+
+
+
+#fachada{
+	width: 100%;
+	height: 60%;
+	background: #58440A;
+	position: absolute;
+	bottom: 0;
+
+}
+
