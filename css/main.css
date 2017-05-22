@@ -37,16 +37,27 @@ body{
 
 
 #techo{
-	border-bottom: 200px solid black;
-	border-left: 128px solid transparent;
-	border-right: 128px solid transparent;
+	border-bottom: 180px solid black;
+	border-left: 137px solid transparent;
+	border-right: 137px solid transparent;
 	height: 0;
-	width: 200px;
+	width: 180px;
 	position: absolute;
-	top: 17px;
+	top: 37px;
 }
 
+/*chimenea*/
+.chimenea{
+	width: 17%;
+	height: 80px;
+	background: #F12984;
+	position: absolute;
+	top: 75px;
+	right: 1%;
 
+
+	/*3 circulos de humo*/
+}
 
 #fachada{
 	width: 100%;
